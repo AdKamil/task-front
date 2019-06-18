@@ -5,6 +5,11 @@ export default [
     component: () => import('@/views/Home.vue')
   },
   {
+    path: '/product/:id',
+    name: 'product',
+    component: () => import('@/views/Product.vue')
+  },
+  {
     path: '/about',
     name: 'about',
     component: () => import('@/views/About.vue')
